@@ -1,0 +1,1 @@
+  Get-Process | select-object name, PriorityClass, ProductVersion, Id | sort-Object name | ConvertTo-Html > 6.html
